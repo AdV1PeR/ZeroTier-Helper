@@ -76,7 +76,6 @@ zt status
 3. Get assigned IP address:
 ```bash
 zt ip
-# Output example: 29.172.0.45
 ```
 
 4. Join additional network:
