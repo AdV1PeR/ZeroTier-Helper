@@ -18,17 +18,11 @@ A simplified CLI wrapper for ZeroTier that streamlines VPN network management. A
 
 1. Clone repository or download script:
 ```bash
-git clone https://github.com/yourusername/zerotier-helper.git
+git clone https://github.com/AdV1PeR/ZeroTier-Helper.git
 cd zerotier-helper
 ```
 
-2. Configure the script:
-```bash
-# Replace YOUR_NETWORK_ID with your actual network ID
-sed -i "s/your_network_id_here/YOUR_NETWORK_ID/" zt
-```
-
-3. Install system-wide:
+2. Install system-wide:
 ```bash
 chmod +x zt
 sudo mv zt /usr/local/bin/
@@ -107,7 +101,7 @@ zt listnetworks
 
 ## Requirements
 
-- ZeroTier One installed ([installation guide](https://www.zerotier.com/download/))
+- ZeroTier One installed (https://www.zerotier.com/download/))
 - Bash 4.0 or newer
 - Sudo privileges for current user
 - Systemd-based Linux distribution
@@ -122,6 +116,6 @@ Contributions are welcome! Please open an issue or pull request for:
 
 ## License
 
-Licensed under [MIT License](LICENSE). 
+Licensed under [MIT License]
 
 ZeroTier is a registered trademark of ZeroTier, Inc. This project is not affiliated with ZeroTier, Inc.
