@@ -106,14 +106,6 @@ zt listnetworks
 - Sudo privileges for current user
 - Systemd-based Linux distribution
 
-## Contribution
-
-Contributions are welcome! Please open an issue or pull request for:
-- Bug reports
-- Feature requests
-- Compatibility improvements
-- Documentation updates
-
 ## License
 
 Licensed under [MIT License]
