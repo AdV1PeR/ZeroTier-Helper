@@ -111,6 +111,19 @@ root-only on most systems. So `zt` calls `sudo zerotier-cli` by default.
 - `ZT_SUDO="" zt info` → no sudo at all (useful in containers or with a custom setup)
 - `ZT_SUDO="doas"` → use another privilege tool
 
+## Tests
+
+Function tests use a mock `zerotier-cli`, so no real ZeroTier installation is
+needed:
+
+```bash
+bash tests/test.sh
+```
+
+They cover ID validation, the default network, config permissions, `status`,
+`ip` parsing (including names with spaces and multiple addresses), `raw`
+passthrough and exit codes. CI runs both tests and `shellcheck`.
+
 ## Troubleshooting
 
 | Symptom | Fix |
